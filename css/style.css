@@ -144,6 +144,13 @@ p {
     width: 510px;
 }
 
+#assiette p {
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: right;
+    padding-top: 0;
+}
+
 
 .img-assiette {
     background: url("../img/assiette.png") no-repeat;
