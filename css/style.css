@@ -151,7 +151,6 @@ p {
     padding-top: 0;
 }
 
-
 .img-assiette {
     background: url("../img/assiette.png") no-repeat;
     object-position: 50% 50%;
@@ -193,6 +192,10 @@ background-size: cover; /* Permet de redimensionner l'image sans la deformer si 
     box-sizing: border-box;
 }
 
+.clear {
+    clear: both;
+}
+
 /* Le pied de la page */
 
 footer {
@@ -202,9 +205,9 @@ footer {
 
 footer h2 {
     width: 500px;
-    margin: 0 auto;
-    padding: 0;
     line-height: 50px;
+    margin: auto;
+    padding: 0;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     letter-spacing: .5em;
@@ -216,10 +219,9 @@ footer figcaption {
 }
 
 figcaption {
+    color: rgb(0, 0, 0);
     font-weight: bold;
     margin-bottom: 10px;
-    color: rgb(0, 0, 0);
-    
 }
 
 address {
@@ -229,6 +231,3 @@ address {
     margin-top: 10px;
 }
 
-.clear {
-    clear: both;
-}
